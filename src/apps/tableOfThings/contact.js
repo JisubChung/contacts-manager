@@ -29,6 +29,9 @@ const contacts = (state = [], action) => {
 				...state,
 				contact(undefined, action)
 			];
+		case 'INCREMENT':
+			console.log('test');
+			return state;
 		// case 'TOGGLE_TODO':
 		// 	return state.map(t =>
 		// 		contact(t, action)

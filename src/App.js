@@ -1,9 +1,3 @@
-/*
-apps/ - complicated reusuable(?) components
-shared/ - simple reusable components
- */
-
-
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.scss';

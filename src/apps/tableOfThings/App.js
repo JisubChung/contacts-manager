@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
+import { createStore } from 'redux';
+import contact from './contact';
+import Contact from './Contact';
+import './App.scss';
+
+const store = createStore(contact);
 
 class App extends Component {
 	render() {
 		return (
 			<div>
-				<ol>
-					<li> each of these should be a contact </li>
-					<li> each of these should be a contact </li>
-					<li> each of these should be a contact </li>
-					<li> each of these should be a contact </li>
-				</ol>
+				<ul className="contacts">
+					<Contact
+						value = {store.getState()}
+						clickedPhoto={() => store.dispatch({ type: 'INCREMENT' })}
+					/>
+				</ul>
 			</div>
 		);
 	}

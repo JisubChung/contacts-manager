@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import initialAdd from './initialAdd'
-import contacts from './contacts'
+import importer from './importer'
+// import contact from './contact'
 
 const todoApp = combineReducers({
-	contacts,
-	initialAdd
+	// contact,
+	importer
 });
 
 export default todoApp
