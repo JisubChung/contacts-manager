@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {"ID": "001",
+      "photo": "http://imgur.com/sR4eTcN",
+      "name": "John Smith",
+      "phone": "111 111-1111",
+      "email": "john@smith.net",
+      "groups": [ "group1", "group2", "group3"]},
+    {"ID": "002",
+      "photo": "http://imgur.com/sR4eTcN",
+      "name": "John Smith",
+      "phone": "111 111-1111",
+      "email": "john@smith.net",
+      "groups": [ "group1", "group2", "group3"]}
+  ]
+}
