@@ -8,7 +8,7 @@ import Contacts from './containers/App';
 console.log(contactsData.contacts);
 
 const store = createStore(contact);
-console.log(store);
+console.log(store.getState());
 
 class App extends Component {
   render() {
