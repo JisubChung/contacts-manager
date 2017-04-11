@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-import './Contacts.scss';
+import './Contact.scss';
 
 class Contacts extends Component {
 
 	render() {
 		return(
-			<li>{this.props.value}</li>
+			<ul className="Contact">
+				<li className="Contact-Items">{this.props.value}</li>
+			</ul>
 		)
 	}
 }
